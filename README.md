@@ -1,5 +1,7 @@
 # vue3-learn
 
+![](https://github.com/actions/hello-world/workflows/.github/workflows/vue.yml/badge.svg)
+
 ## Project setup
 ```
 npm install
