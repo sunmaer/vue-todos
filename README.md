@@ -1,6 +1,6 @@
 # vue3-learn
 
-![](https://github.com/actions/hello-world/workflows/.github/workflows/vue.yml/badge.svg)
+![](https://github.com/sunmaer/vue3-learn/.github/workflows/ci.yml/badge.svg)
 
 ## Project setup
 ```
