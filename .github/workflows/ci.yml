@@ -10,9 +10,10 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 3a43b0c745db5c55faf78bf8c6cfdb50e133dcc9
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: dist # The folder the action should deploy.
         BUILD_SCRIPT: npm install && npm run build # The build script the action should run prior to deploying.
         CNAME: sunmaer.cn
+        
